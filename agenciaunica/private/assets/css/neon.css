@@ -1,0 +1,86 @@
+/* Sidebar Styles */
+#sidebar-wrapper {
+  background-color: #1a1a1a;
+  border-right: 1px solid #00ff99;
+  box-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 15px #00ff99;
+}
+
+.neon-brand-logo {
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99;
+}
+
+.neon-brand-logo img {
+  max-width: 50px;
+  box-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99;
+}
+
+.neon-brand-logo h5 {
+  color: #00ff99;
+  text-shadow: 0 0 3px #00ff99, 0 0 6px #00ff99;
+}
+
+.sidebar-menu li a {
+  color: #00ff99;
+  text-shadow: 0 0 3px #00ff99, 0 0 6px #00ff99;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-menu li a:hover {
+  background-color: #00ff99;
+  color: #1a1a1a;
+}
+
+.navbar-nav .nav-link {
+  color: #00ff99;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.right-nav-link .dropdown-menu {
+  background-color: #1a1a1a;
+  border: 1px solid #00ff99;
+  box-shadow: 0 0 10px #00ff99;
+}
+
+.right-nav-link .dropdown-item:hover {
+  background-color: #00ff99;
+  color: #1a1a1a;
+}
+
+.dropdown-divider {
+  background-color: #00ff99;
+}
+
+/* Neon Effect */
+.neon-button {
+  background-color: #1a1a1a;
+  border: 1px solid #00ff99;
+  transition: all 0.3s ease;
+}
+
+.neon-button:hover {
+  background-color: #00ff99;
+  color: #1a1a1a;
+}
+
+.neon-badge {
+  background-color: #1a1a1a;
+  border: 1px solid #00ff99;
+  text-shadow: 0 0 3px #00ff99, 0 0 5px #00ff99;
+}
+
+.neon-badge:hover {
+  background-color: #00ff99;
+  color: #1a1a1a;
+}
+
+.neon-img {
+  border: 2px solid #00ff99;
+  box-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99;
+}

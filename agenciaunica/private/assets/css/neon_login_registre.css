@@ -1,0 +1,71 @@
+@keyframes neonGlow {
+    0% { color: #9146FF; box-shadow: 0 0 25px #9146FF; }
+    25% { color: #FF0000; box-shadow: 0 0 25px #FF0000; }
+    50% { color: #00FF00; box-shadow: 0 0 25px #00FF00; }
+    75% { color: #0000FF; box-shadow: 0 0 25px #0000FF; }
+    100% { color: #9146FF; box-shadow: 0 0 25px #9146FF; }
+}
+
+@keyframes bgColorChange {
+    0% { background-color: #9146FF; }
+    25% { background-color: #FF0000; }
+    50% { background-color: #00FF00; }
+    75% { background-color: #0000FF; }
+    100% { background-color: #9146FF; }
+}
+
+body {
+    background-color: #0f0c29;
+    background-image: linear-gradient(315deg, #0f0c29 0%, #302b63 74%);
+    color: #ffffff;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    animation: neonGlow 5s infinite;
+}
+
+.card-title {
+    animation: neonGlow 5s infinite;
+    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+}
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #ffffff;
+    animation: neonGlow 5s infinite;
+}
+
+.form-control::placeholder {
+    color: currentColor;
+}
+
+.form-control-position i {
+    animation: neonGlow 5s infinite;
+}
+
+.btn-light {
+    animation: bgColorChange 5s infinite;
+    border: none;
+    color: #000000;
+    box-shadow: 0 0 20px currentColor;
+}
+
+.btn-light:hover {
+    background-color: #00cccc;
+}
+
+.text-warning {
+    animation: neonGlow 5s infinite;
+}
+
+.loader-wrapper-outer {
+    border-color: #00ffff;
+}
+
+.lds-ring div {
+    animation: neonGlow 5s infinite;
+    border-color: currentColor transparent transparent transparent;
+}
